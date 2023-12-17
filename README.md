@@ -41,6 +41,29 @@ This project is a Link Shortener application developed using Angular and Nebular
    `
 ### Running the Application
 
+1. Run the development server:
+   `bash
+   ng serve
+  `
 
+2. Open your browser and navigate to:
+   `bash
+   http://localhost:4200
+   `
+## Usage
 
+### Signup/Login: Create an account or log in using existing credentials.
+### URL Shortening: Enter a long URL to generate a short URL.
+### Analytics: View click statistics and error rates for shortened URLs.
 
+## Folder Structure
+#### /src: Contains the application source code.
+#### /src/app: Main application code.
+#### /src/app/auth: Authentication module (signup, login).
+#### /src/app/dashboard: Dashboard components and URL shortening functionalities.
+#### /src/app/analytics: Analytics components for clicks and error rates.
+#### /src/app/services: Services for API interactions and data handling.
+
+## Contributors
+
+Aayoushee
