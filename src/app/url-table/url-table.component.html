@@ -16,7 +16,7 @@
             <td><a href="{{ item.big_url }}" target="_blank">{{ item.big_url }}</a></td>
             <td><a href="{{ item.small_url }}" target="_blank">{{ item.short_url }}</a></td>
             <td>{{ item.clicks }}</td>
-            <td>{{ item.created_at }}</td>
+            <td>{{ item.expiry_at }}</td>
             <td><button nbButton (click)="viewAnalytics(item)">View Analysis</button></td>
           </tr>
         </tbody>
