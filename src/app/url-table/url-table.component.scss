@@ -1,0 +1,16 @@
+.table-container {
+  max-height: 45vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+thead {
+  background-color: #f0f0f0;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  max-width: 10vw;
+  overflow-x: hidden;
+}

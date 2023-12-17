@@ -1,0 +1,17 @@
+<nb-card-header>
+  <h1 id="title" class="title">Login</h1>
+  <p class="sub-title">Hello! Log in with your email.</p>
+</nb-card-header>
+<nb-card-body class="auth-card-body">
+  <form nbForm [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="auth-form">
+      <label>Email</label>
+      <input nbInput type="email" fullWidth formControlName="email">
+      <label>Password</label>
+      <input nbInput type="password" fullWidth formControlName="password">
+    <button nbButton type="submit" [disabled]="submitted" class="submit-btn" shape="semi-round" status="info"
+    [class.btn-pulse]="submitted">Login</button>
+  </form>
+  <section class="another-action" aria-label="Register" >
+    Don't have an account? <a class="text-link" routerLink="../register">Register</a>
+  </section>
+</nb-card-body>

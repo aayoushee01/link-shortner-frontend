@@ -1,0 +1,12 @@
+<nb-card>
+  <nb-card-header>URL Shortener</nb-card-header>
+  <nb-card-body>
+    <form (ngSubmit)="generateSmallUrl()">
+      <input nbInput fullWidth type="text" placeholder="Big URL" [(ngModel)]="bigUrl" name="bigUrl">
+      <button nbButton class="button" status="primary" type="submit">Generate Small URL</button>
+      <input nbInput fullWidth type="text" placeholder="Small URL" [(ngModel)]="smallUrl" [readonly]="true" name="smallUrl">
+      <button nbButton class="button" status="success" (click)="copyToClipboard()">Copy to Clipboard</button>
+      <span *ngIf="copied" class="copied-message">Copied!</span>
+    </form>
+  </nb-card-body>
+</nb-card>

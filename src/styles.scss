@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@forward '@nebular/theme/styles/theming';
+@use '@nebular/theme/styles/theming' as *;
+@use '@nebular/theme/styles/themes/default';
+@use '@nebular/theme/styles/globals' as *;
+@import '~@nebular/theme/styles/prebuilt/default.css';
+
+@include nb-install() {
+}

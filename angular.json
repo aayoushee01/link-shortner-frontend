@@ -93,12 +93,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/@nebular/theme/styles/prebuilt/default.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2c504b79-26fa-4761-b5dc-4f494e7fd912"
   }
 }

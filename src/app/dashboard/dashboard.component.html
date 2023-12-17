@@ -1,0 +1,12 @@
+<nb-layout>
+  <nb-layout-column class="colored-column-success">
+    <app-url-shortner>
+    </app-url-shortner>
+    <app-url-table [tableData]="yourTableData" (showAnalytics)="setSelectedItem($event)"></app-url-table>
+  </nb-layout-column>
+  <nb-layout-column class="colored-column-warning">
+    <app-analytics [selectedItemForAnalytics]="selectedItem"></app-analytics>
+  </nb-layout-column>
+</nb-layout>
+
+
