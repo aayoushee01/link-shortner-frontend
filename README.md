@@ -2,6 +2,8 @@
 
 This project is a Link Shortener application developed using Angular and Nebular. It provides functionalities for URL shortening, user authentication (login and signup), and analytics for tracking clicks and error rates.
 
+<img width="1727" alt="Screenshot 2023-12-17 at 8 07 39 PM" src="https://github.com/aayoushee01/link-shortner-frontend/assets/75840618/a3507ef2-1ddf-4605-93d9-57d580792209">
+
 ## Features
 
 - **URL Shortening:** Shorten long URLs into shorter, manageable ones.
