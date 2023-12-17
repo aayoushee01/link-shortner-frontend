@@ -26,19 +26,19 @@ This project is a Link Shortener application developed using Angular and Nebular
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   `bash
    git clone <repository-url>
-  ``
+  `
 
 2. Navigate to the project directory:
-   ```bash
+   `bash
    cd link-shortener-frontend
-  ``
+   `
 
 3. Install Dependencies:
-   ```bash
+   `bash
    npm install
-  ``
+   `
 ### Running the Application
 
 
